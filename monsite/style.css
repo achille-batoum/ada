@@ -1,0 +1,11 @@
+aside{
+    margin-top: 5px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}

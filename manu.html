@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <form >
+      <div class="input-row">
+        <h3> Quel est votre loisir préféré</h3>
+        <select name="entertaiment" id="entertaiment">
+          <option value="movies">Cinema</option>
+          <option value="music">musique</option>
+          <option value="games">jeux video</option>
+          <option value="sport">sport</option>
+        </select>
+      </div>
+      <div class="input-row">
+        <h3>vous avez adopté</h3>
+        <input type="radio" value="dog" name="animal" id="dog">
+        <label for="dog">un chien</label>
+        <input type="radio" value="cat" name="animal" id="cat">
+        <label for="dog">un chat</label>
+        <input type="radio" value="other" name="animal" id="other">
+        <label for="other">autre</label>
+        <input type="radio" value="none" name="animal" id="none">
+        <label for="none">aucun animal</label>
+      </div>
+      <div class="input-row">
+        <h3>Conditions de vente</h3>
+        <input type="checkbox" name="tos" id="tos" placeholder="conchez">
+        <label for="tos">j'accepte les conditions de vente</label>
+      </div>
+      <div class="input-row">
+        <button type="submit">envoyez</button>
+      </div>
+
+    </form>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

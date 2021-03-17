@@ -1,0 +1,18 @@
+.p {
+  color: #0cb66e;
+}
+
+.warning {
+  position: relative;
+  border: 2px solid yellow;
+  padding: 20px;
+}
+
+.warning p {
+  color: #062939;
+}
+
+.warning:hover {
+  color: blue;
+}
+/*# sourceMappingURL=style.css.map */

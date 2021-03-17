@@ -1,0 +1,20 @@
+$p: lighten(#098651, 10%);
+$info-darker: darken( #093950, 5%);
+$info-lighter: #0984e3;
+
+.p{
+    color:$p;
+}
+
+.warning{
+    position: relative;
+    border: 2px solid yellow;
+    padding: 20px;
+
+    p{
+        color:$info-darker;
+    }
+    &:hover{
+        color: blue;
+    }
+}
